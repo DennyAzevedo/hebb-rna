@@ -4,6 +4,7 @@ public class Hebb {
     private Integer[] x;
     private Integer identifier;
     private boolean isTrained;
+    private static Hebb algorithm;
 
     private static final int SIZE = 25;
     private static final String PATH_O = "../resources/o.txt";
@@ -52,6 +53,13 @@ public class Hebb {
 
     public boolean isTrained() {
         return isTrained;
+    }
+
+    public static Hebb getInstance() {
+        if (algorithm == null) {
+            algorithm = new Hebb();
+        }
+        return algorithm;
     }
 
 }
