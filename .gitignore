@@ -105,3 +105,6 @@ local.properties
 ## File-based project format:
 *.ipr
 *.iws
+
+#Linux
+*~
