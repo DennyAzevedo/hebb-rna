@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Reader {
 
-    public static void readFile(Integer[] x, String path) throws IOException {
+    public static void readFile(Integer[] x, String path) {
 
         try {
             File file = new File(path);
