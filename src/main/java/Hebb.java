@@ -58,4 +58,8 @@ public class Hebb {
         return algorithm;
     }
 
+    public Integer[] getW() {
+        return this.w;
+    }
+
 }
