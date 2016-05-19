@@ -11,7 +11,7 @@ public class Reader {
             File file = new File(path);
             BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
 
-            String line;
+            String line = null;
             int i = 0;
 
             while((line = bufferedReader.readLine()) != null) {
@@ -30,8 +30,9 @@ public class Reader {
                     }
                     i++;
                 }
-                bufferedReader.close();
             }
+
+            bufferedReader.close();
         } catch (IOException err) {
             System.err.printf("An error occurred when trying to opening the file: " + err.getMessage());
         }

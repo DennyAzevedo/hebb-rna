@@ -7,9 +7,9 @@ public class Hebb {
     private static Hebb algorithm;
 
     private static final int SIZE = 25;
-    private static final String PATH_O = "../resources/o.txt";
-    private static final String PATH_X = "../resources/x.txt";
-    private static final String PATH_TEST = "../resources/test.txt";
+    private static final String PATH_O = "/home/nbfontana/git-repos/xo-rna/src/main/resources/o.txt";
+    private static final String PATH_X = "/home/nbfontana/git-repos/xo-rna/src/main/resources/x.txt";
+    private static final String PATH_TEST = "/home/nbfontana/git-repos/xo-rna/src/main/resources/test.txt";
 
     private static final String LETTER_IS_O = "The letter you tested looks like an 'O'... =D";
     private static final String LETTER_IS_X = "The letter you tested looks like an 'X'... =D";
@@ -34,7 +34,7 @@ public class Hebb {
             identifier = (i == 0) ? -1 : 1;
 
             for (int j = 0; j < SIZE; j++) {
-                w[i] += x[j] * identifier;
+                w[j] += x[j] * identifier;
             }
         }
         isTrained = true;

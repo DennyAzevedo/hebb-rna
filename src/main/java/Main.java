@@ -16,6 +16,7 @@ public class Main {
         Hebb algorithm = Hebb.getInstance();
 
         do {
+
             try {
                 option = Integer.parseInt(JOptionPane.showInputDialog(OPTIONS_MSG));
             } catch (Exception e) {
