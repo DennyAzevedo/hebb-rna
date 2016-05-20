@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         int option = 0;
-        Hebb algorithm = Hebb.getInstance();
+        Hebb algorithm = HebbFactory.getInstance();
 
         do {
             try {

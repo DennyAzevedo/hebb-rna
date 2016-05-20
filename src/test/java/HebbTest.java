@@ -7,7 +7,7 @@ public class HebbTest extends TestCase {
     private static final Integer[] EXPECTED_XO_TRAINED_VECTOR = {2, -2, -2, -2, 2, -2, 2, 0, 2, -2, -2, 0, 2, 0, -2, -2, 2, 0, 2, -2, 2, -2, -2, -2, 2};
 
     public void testTrainW() {
-        algorithm = Hebb.getInstance();
+        algorithm = HebbFactory.getInstance();
         Integer[] resultingVector;
         algorithm.trainW();
         resultingVector = algorithm.getW();

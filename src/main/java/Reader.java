@@ -9,7 +9,9 @@ public class Reader {
     public static final String PATH_X = "/home/nbfontana/git-repos/xo-rna/src/main/resources/x.txt";
     public static final String PATH_TEST = "/home/nbfontana/git-repos/xo-rna/src/main/resources/test.txt";
 
-    public static void readFile(Integer[] x, String path) {
+    public static Integer[] readFile(String path) {
+
+        Integer[] x = new Integer[Hebb.SIZE];
 
         try {
             File file = new File(path);
@@ -41,6 +43,7 @@ public class Reader {
             System.err.printf("An error occurred when trying to opening the file: " + err.getMessage());
         }
 
+        return x;
     }
 
 }
