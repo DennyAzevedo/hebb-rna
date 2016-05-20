@@ -5,10 +5,27 @@ import java.io.IOException;
 
 public class Reader {
 
+    /**
+     * Caminho para o arquivo que contém a letra O a ser treinada.
+     */
     public static final String PATH_O = "/home/nbfontana/git-repos/xo-rna/src/main/resources/o.txt";
+
+    /**
+     * Caminho para o arquivo que contém a letra X a ser treinada.
+     */
     public static final String PATH_X = "/home/nbfontana/git-repos/xo-rna/src/main/resources/x.txt";
+
+    /**
+     * Caminho para o arquivo que irá ser testado pela aplicação.
+     */
     public static final String PATH_TEST = "/home/nbfontana/git-repos/xo-rna/src/main/resources/test.txt";
 
+    /**
+     * Lê arquivo com base no caminho recebido por parametro.
+     * Para cada caractere do arquivo é atribuido um valor correspondente ao mesmo no vetor de retorno.
+     * @param path
+     * @return Integer[]
+     */
     public static Integer[] readFile(String path) {
 
         Integer[] x = new Integer[Hebb.SIZE];
