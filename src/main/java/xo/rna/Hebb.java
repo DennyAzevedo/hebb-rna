@@ -1,3 +1,5 @@
+package xo.rna;
+
 public class Hebb {
 
     private Integer[] w;

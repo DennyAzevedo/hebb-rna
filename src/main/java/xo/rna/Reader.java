@@ -1,23 +1,11 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+package xo.rna;
+
+import java.io.*;
 
 public class Reader {
 
-    /**
-     * Caminho para o arquivo que contém a letra O a ser treinada.
-     */
     public static final String PATH_O = "/home/nbfontana/git-repos/xo-rna/src/main/resources/o.txt";
-
-    /**
-     * Caminho para o arquivo que contém a letra X a ser treinada.
-     */
     public static final String PATH_X = "/home/nbfontana/git-repos/xo-rna/src/main/resources/x.txt";
-
-    /**
-     * Caminho para o arquivo que irá ser testado pela aplicação.
-     */
     public static final String PATH_TEST = "/home/nbfontana/git-repos/xo-rna/src/main/resources/test.txt";
 
     /**

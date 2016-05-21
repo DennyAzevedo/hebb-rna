@@ -1,5 +1,6 @@
 import junit.framework.TestCase;
 import org.junit.Assert;
+import xo.rna.Reader;
 
 public class ReaderTest extends TestCase {
 

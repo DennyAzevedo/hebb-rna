@@ -1,5 +1,7 @@
 import junit.framework.TestCase;
 import org.junit.Assert;
+import xo.rna.Hebb;
+import xo.rna.HebbFactory;
 
 public class HebbTest extends TestCase {
 
