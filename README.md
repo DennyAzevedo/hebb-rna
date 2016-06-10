@@ -7,4 +7,4 @@ O projeto é um projeto Maven, ele possui em suas pasta resources, dois arquivos
 Na mesma pasta resources, também se encontra o arquivo test.txt, que pode ser modificado manualmente ou via execução da aplicação. A mesma é capaz de gerar aleatóriamente um novo arquivo randomico para ser testado.
 
 ### License
-[MIT](https://github.com/nbfontana/xo-rna/blob/master/LICENSE.md) @ Neri Bez Fontana
+MIT @ [Neri Bez Fontana](https://github.com/nbfontana/xo-rna/blob/master/LICENSE.md)
